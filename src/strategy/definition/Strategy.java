@@ -6,5 +6,5 @@ package strategy.definition;
  */
 public abstract class Strategy {
 
-    public abstract void algorithmInterface();
+    abstract void algorithmInterface();
 }

@@ -6,7 +6,7 @@ package factory.method.definition;
 public class Main {
 
     public static void main(String[] args) {
-        IFactory productFactory = new ProductFactory();
+        IFactory productFactory = new ProductAFactory();
         IProduct product = productFactory.createProduct();
         product.productAction();
     }

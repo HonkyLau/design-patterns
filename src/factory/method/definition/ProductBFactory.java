@@ -3,10 +3,10 @@ package factory.method.definition;
 /**
  * @author liuhongji
  */
-public class ProductFactory implements IFactory{
+public class ProductBFactory implements IFactory{
 
     @Override
     public IProduct createProduct() {
-        return new ConcreteProduct();
+        return new ConcreteProductB();
     }
 }

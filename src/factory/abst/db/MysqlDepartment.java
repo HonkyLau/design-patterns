@@ -6,7 +6,7 @@ package factory.abst.db;
 public class MysqlDepartment implements IDepartment{
 
     @Override
-    public void insertDepartment(User user) {
+    public void insertDepartment(Department department) {
         System.out.println("insert department into mysql");
     }
 

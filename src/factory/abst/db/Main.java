@@ -10,7 +10,8 @@ public class Main {
         try {
             IUser user = DataAccess.createUser();
             user.insertUser(new User());
-
+            IDepartment department = DataAccess.createDepartment();
+            department.insertDepartment(new Department());
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

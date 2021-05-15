@@ -5,7 +5,7 @@ package factory.abst.db;
  */
 public interface IDepartment {
 
-    void insertDepartment(User user);
+    void insertDepartment(Department department);
 
     void getDepartment(Long id);
 }

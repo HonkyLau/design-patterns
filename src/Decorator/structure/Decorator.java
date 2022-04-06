@@ -1,6 +1,8 @@
 package Decorator.structure;
 
 /**
+ * 装饰类
+ *
  * @author liuhongji
  * @version 1.0
  * @date 2022/3/22

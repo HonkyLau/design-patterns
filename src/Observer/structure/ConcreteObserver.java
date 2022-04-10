@@ -9,6 +9,6 @@ public class ConcreteObserver extends Observer {
 
     @Override
     void update() {
-        System.out.println("收到通知，执行操作");
+        System.out.println(this.name + "收到通知，执行操作");
     }
 }

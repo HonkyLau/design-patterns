@@ -7,7 +7,7 @@ package Observer.structure;
  */
 public abstract class Observer {
 
-    private String name;
+    protected String name;
 
     public String getName() {
         return name;
